@@ -9,16 +9,30 @@
     h2 {
         color: red;
         font-size: 30px;
-        text-align: center;
-    }
-    p {
-        color: #ffff00;
-        font-size: 50px;
         text-align: end;
-        background-color: rgb(10, 50, 50);
+    }
+    /*
+    .index-intro p {
+        
+            color: blueviolet;
+            font-size: 50px;
+            text-align: end;
+            background-color: rgb(10, 150, 50);
+        
+    }*/
+    #index-intro p {
+        color: burlywood;
+        background: blue;
     }
     
 div h1 {
     color: #001254;
     font-size: 25px;
+}
+
+.index-h2 {
+    color: #111111;
+    background-color: royalblue;
+    font-size: larger;
+
 }
