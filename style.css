@@ -36,3 +36,9 @@ div h1 {
     font-size: larger;
 
 }
+.p-welcome {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(17, 224, 45);
+    font-style: oblique;
+}
