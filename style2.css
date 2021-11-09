@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+.mykids-img {
+    width: 400px;
+    height: 400px;
+    background-image: url(mykids.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+.mykids-img:hover {
+    background-size: 50%;
+
+}
