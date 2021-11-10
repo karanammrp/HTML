@@ -1,0 +1,29 @@
+* {
+    margin: 0%; 
+    padding: 0%;
+}
+.wrapper {
+    margin: 0% auto;
+    width: 1000px;
+}
+.wrapper h1 {
+    font-size: 100px;
+    background-color: #ff00dd;
+}
+.videowrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0%;
+
+}
+.videowrapper iframe {
+    position: absolute;
+    left: 0;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    height: 100%;
+    width: 100%;
+     
+}
