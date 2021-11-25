@@ -18,6 +18,7 @@ body{
     width: 250px;
     padding: 0 20px;
     background: #292b2f;
+
 }
 .right{
     width: calc(100% - 250px);
@@ -60,7 +61,7 @@ body{
 .left .txt{
     text-transform: uppercase;
     color: #32990090;
-font-size: 13px;
+    font-size: 13px;
 }
 .contact .li-wrap{
     display: flex;
@@ -70,17 +71,17 @@ font-size: 13px;
 .contact .li-wrap .icon{
     width: 50px;
     height: 50px;
-background-color: #fff;
-border-radius: 50%;
-display: flex;
-justify-content: center;
-align-items: center;
-margin-right: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
 }
 .contact .li-wrap .txt{
-width: calc(100% - 50px);
-word-break: break-word;
-color: #fff;
+    width: calc(100% - 50px);
+    word-break: break-word;
+    color: #fff;
 }
 .skills ul,.hobbies ul{
     display: flex;
