@@ -208,8 +208,36 @@ body{
 .experience-wrap .li-wrap .info-title:hover{
 color: chocolate;
 }
-@media screen and (min-width : 800px) {
-.wraper{
-    background-color: #f00;
+@media screen and (max-width : 600px) {
+    
+.resume {
+    display: flex;
+    flex-direction: column;
+    background-color:lightblue ;
+
+
+    }
+    .right{
+        width:auto;
+    }
+    .left{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .header {
+        height: auto;
+        width: calc(100% - 500px);
+    }
+    .left .img-holder{
+        text-align: left;
+    }
+    .wrapper .resume .left{
+        background-color:lightblue ;
+    }
+
+
+
 }
-}
+
