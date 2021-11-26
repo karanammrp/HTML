@@ -199,3 +199,21 @@ height: 260px;
     background: #899080;
  
 }
+@media screen and (max-width: 600px) {
+    .resume{
+        display: calc(100% - 250px);
+        flex-direction: column;
+    }
+    .left{
+        width: auto
+    }
+    .resume .right{
+        background-color: #f00;
+    }
+    .left .img-holder{
+        width: 600px;
+        display: flex;
+        justify-content: center;
+    }
+    
+}
